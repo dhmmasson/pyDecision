@@ -42,6 +42,10 @@ def tamarin_method(dataset, weights, blurs, criterion_type, graph=True, verbose=
     # blurs is an array of n values
     # criterion_type is an array of n "min" or "max" strings
 
+    # Normalize the dataset
+    minValue = np.min(dataset, axis=0)
+    maxValue = np.max(dataset, axis=0)
+    normalized_dataset = (dataset - minValue) / (maxValue - minValue)
     # dominance
     dominance = np.copy(dataset)*0
 
@@ -53,10 +57,10 @@ def tamarin_method(dataset, weights, blurs, criterion_type, graph=True, verbose=
                 if (alternative_1 == alternative_2):
                     continue
                 if (criterion_type[criteria] == 'max'):
-                    if (dataset[alternative_1][criteria] > dataset[alternative_2][criteria]):
+                    if (normalized_dataset[alternative_1][criteria] - blurs[criteria] > normalized_dataset[alternative_2][criteria]):
                         dominance[alternative_1][criteria] += 1
                 elif (criterion_type[criteria] == 'min'):
-                    if (dataset[alternative_1][criteria] < dataset[alternative_2][criteria]):
+                    if (normalized_dataset[alternative_1][criteria] + blurs[criteria] < normalized_dataset[alternative_2][criteria]):
                         dominance[alternative_1][criteria] += 1
 
     # normalisation
