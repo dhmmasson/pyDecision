@@ -2,6 +2,7 @@ from .ahp           import ahp_method
 from .aras          import aras_method
 from .borda         import borda_method
 from .bwm           import bw_method
+from .bwm_s         import simplified_bw_method
 from .cilos         import cilos_method
 from .cocoso        import cocoso_method
 from .codas         import codas_method
@@ -19,12 +20,17 @@ from .e_iv          import electre_iv
 from .e_tri_b       import electre_tri_b
 from .edas          import edas_method
 from .entropy       import entropy_method
+from .fucom         import fucom_method
 from .fuzzy_ahp     import fuzzy_ahp_method
+from .fuzzy_ahp_ppf import ppf_ahp_method
 from .fuzzy_aras    import fuzzy_aras_method
 from .fuzzy_bwm     import fuzzy_bw_method
 from .fuzzy_copras  import fuzzy_copras_method
+from .fuzzy_critic  import fuzzy_critic_method
 from .fuzzy_dematel import fuzzy_dematel_method
 from .fuzzy_edas    import fuzzy_edas_method
+from .fuzzy_fucom   import fuzzy_fucom_method
+from .fuzzy_merec   import fuzzy_merec_method
 from .fuzzy_moora   import fuzzy_moora_method
 from .fuzzy_ocra    import fuzzy_ocra_method
 from .fuzzy_topsis  import fuzzy_topsis_method
@@ -35,6 +41,7 @@ from .idocriw       import idocriw_method
 from .mabac         import mabac_method
 from .macbeth       import macbeth_method
 from .mairca        import mairca_method
+from .mara          import mara_method
 from .marcos        import marcos_method
 from .maut          import maut_method
 from .merec         import merec_method
@@ -42,6 +49,7 @@ from .moora         import moora_method
 from .moosra        import moosra_method
 from .multimoora    import multimoora_method  
 from .ocra          import ocra_method
+from .opa           import opa_method
 from .oreste        import oreste_method
 from .p_ec          import ec_promethee, solution_p_ranking, plot_rank_freq, find_column_modes
 from .p_i           import promethee_i
@@ -53,13 +61,20 @@ from .p_vi          import promethee_vi
 from .p_xgaia       import promethee_gaia
 from .piv           import piv_method
 from .psi           import psi_method
+from .psi_m         import mpsi_method
+from .rafsi         import rafsi_method
 from .regime        import regime_method
+from .roc           import roc_method
 from .rov           import rov_method
+from .rrw           import rrw_method
+from .rsw           import rsw_method
 from .saw           import saw_method
+from .seca          import seca_method
 from .smart         import smart_method
 from .spotis        import spotis_method
 from .todim         import todim_method
 from .topsis        import topsis_method
 from .vikor         import vikor_method, ranking
 from .waspas        import waspas_method
+from .wisp          import wisp_method
 from .wings         import wings_method
