@@ -1,14 +1,14 @@
 # pyDecision
 
-## Introduction
-
-A python library with the following MCDA methods: **AHP** (Analytic Hierarchy Process); **Fuzzy AHP**; **PPF AHP** (Proportional Picture Fuzzy AHP); **ARAS** (Additive Ratio ASsessment); **Fuzzy ARAS**; **Borda**; **BWM** (Best-Worst Method); **Simplified BWM**; **Fuzzy BWM**; **CILOS** (Criterion Impact LOSs); **CoCoSo** (COmbined COmpromise SOlution); **CODAS** (Combinative Distance-based Assessment); **Copeland**; **COPRAS** (Complex PRoportional Assessment); **Fuzzy COPRAS**; **CRADIS** (Compromise Ranking of Alternatives from Distance to Ideal Solution); **CRITIC** (CRiteria Importance Through Intercriteria Correlation); **Fuzzy CRITIC**; **DEMATEL** (DEcision MAking Trial and Evaluation Laboratory); **Fuzzy DEMATEL**; **EDAS** (Evaluation based on Distance from Average Solution); **Fuzzy EDAS**; **Entropy**; **ELECTRE** (I, I_s, I_v, II, III, IV, Tri-B); **FUCOM** (Full Consistency Method); **Fuzzy FUCOM**; **GRA** (Grey Relational Analysis); **IDOCRIW** (Integrated Determination of Objective CRIteria Weights); **MABAC** (Multi-Attributive Border Approximation area Comparison); **MACBETH** (Measuring Attractiveness by a Categorical Based Evaluation TecHnique); **MAIRCA** (Multi-Attributive Ideal-Real Comparative Analysis); **MARA** (Magnitude of the Area for the Ranking of Alternatives) ; **MARCOS** (Measurement of Alternatives and Ranking according to COmpromise Solution); **MAUT** (Multi-attribute Utility Theory); **MEREC** (MEthod based on the Removal Effects of Criteria); **MOORA** (Multi-Objective Optimization on the basis of Ratio Analysis); **Fuzzy MOORA**; **MOOSRA** (Multi-Objective Optimisation on the Basis of Simple Ratio Analysis);  **MULTIMOORA** (Multi-Objective Optimization on the basis of Ratio Analisys Multiplicative Form); **OCRA** (Operational Competitiveness RAting); **Fuzzy OCRA** ; **OPA** (Ordinal Priority Approach); **ORESTE** (Organisation Rangement Et SynThesE de donnees relationnelles); **PIV** (Proximity Indexed Value); **PROMETHEE** (I, II, III, IV, V, VI, Gaia); **EC PROMETHEE**; **RAFSI** (Ranking of Alternatives through Functional mapping of criterion sub-intervals into a Single Interval); **REGIME** (REGIonal Multicriteria Elimination); **ROC** (Rank Ordered Centroid); **ROV** (Range Of Value); **RRW** (Rank Reciprocal Weighting); **RSW** (Rank Summed Weight); **SAW** (Simple Additive Weighting); **SECA** (Simultaneous Evaluation of Criteria and Alternatives); **SMART** (Simple Multi-Attribute Rating Technique); **SPOTIS** (Stable Preference Ordering Towards Ideal Solution); **TODIM** (TOmada de Decisao Interativa e Multicriterio - Interactive and Multicriteria Decision Making); **PSI** (Preference Selection Index); **MPSI** (Modified Preference Selection Index); **TOPSIS** (Technique for Order of Preference by Similarity to Ideal Solution); **Fuzzy TOPSIS**; **VIKOR** (VIseKriterijumska Optimizacija I Kompromisno Resenje); **Fuzzy VIKOR**; **WINGS** (Weighted Influence Non-linear Gauge System); **WISP** (Integrated Simple Weighted Sum Product); **Simple WISP**; **WSM** (Weighted Sum Model); **Fuzzy WSM**; **WPM** (Weighted Product Model); **Fuzzy WPM**; **WASPAS** (Weighted Aggregates Sum Product Assessment); **Fuzzy WASPAS**. 
-
-pyDecision offers an array of features, including the **comparison of ranking alternatives** and **comparison of criterion weights** from various methods. The library is also fully integrated with **chatGPT**, elevating result interpretation through AI. Additionally, pyDecision provides the flexibility to import results from custom methods or those not yet implemented in the library for swift comparison.
-
 ## Citation
 
-PEREIRA, V.; BASILIO, M.P.; SANTOS, C.H.T (2024). Enhancing Decision Analysis with a Large Language Model: pyDecision a Comprehensive Library of MCDA Methods in Python. arXiv. https://arxiv.org/abs/2404.06370
+PEREIRA, V.; BASILIO, M.P.; SANTOS, C.H.T (2026). Enhancing Decision Analysis with a Large Language Model: pyDecision a Comprehensive Library of MCDA Methods in Python. Journal of Modelling in Management, Vol. 21 No. 2 pp. 481–521, doi: https://doi.org/10.1108/JM2-04-2024-0118
+
+## Introduction
+
+A python library with the following MCDA methods: **AHP** (Analytic Hierarchy Process); **ANP** (Analytic Network Process); **Fuzzy AHP**; **PPF AHP** (Proportional Picture Fuzzy AHP); **ARAS** (Additive Ratio ASsessment); **Fuzzy ARAS**; **Borda**; **BWM** (Best-Worst Method); **Simplified BWM**; **Fuzzy BWM**; **CILOS** (Criterion Impact LOSs); **CoCoSo** (COmbined COmpromise SOlution); **CODAS** (Combinative Distance-based Assessment); **Copeland**; **COPRAS** (Complex PRoportional Assessment); **Fuzzy COPRAS**; **CPP-Tri** (Composition of Probabilistic Preferences); **CRADIS** (Compromise Ranking of Alternatives from Distance to Ideal Solution); **CRITIC** (CRiteria Importance Through Intercriteria Correlation); **Fuzzy CRITIC**; **DEMATEL** (DEcision MAking Trial and Evaluation Laboratory); **Fuzzy DEMATEL**; **EDAS** (Evaluation based on Distance from Average Solution); **Fuzzy EDAS**; **Entropy**; **ELECTRE** (ELimination Et Choix Traduisant la REalite I, I_s, I_v, II, III, IV, Tri-B, Tri-nB, Tri-C, Tri-nC); **Flowsort**; **FUCOM** (Full Consistency Method); **Fuzzy FUCOM**; **GRA** (Grey Relational Analysis); **IDOCRIW** (Integrated Determination of Objective CRIteria Weights); **LMAW** (Logarithm Methodology of Additive Weights); **MABAC** (Multi-Attributive Border Approximation area Comparison); **MACBETH** (Measuring Attractiveness by a Categorical Based Evaluation TecHnique); **MAIRCA** (Multi-Attributive Ideal-Real Comparative Analysis); **MARA** (Magnitude of the Area for the Ranking of Alternatives) ; **MARCOS** (Measurement of Alternatives and Ranking according to COmpromise Solution); **MAUT** (Multi-attribute Utility Theory); **MEREC** (MEthod based on the Removal Effects of Criteria); **MOORA** (Multi-Objective Optimization on the basis of Ratio Analysis); **Fuzzy MOORA**; **MOOSRA** (Multi-Objective Optimisation on the Basis of Simple Ratio Analysis);  **MULTIMOORA** (Multi-Objective Optimization on the basis of Ratio Analisys Multiplicative Form); **OCRA** (Operational Competitiveness RAting); **Fuzzy OCRA** ; **OPA** (Ordinal Priority Approach); **ORESTE** (Organisation Rangement Et SynThesE de donnees relationnelles); **PIV** (Proximity Indexed Value); **PROMETHEE** (Preference Ranking Organization METHod for Enrichment Evaluation I, II, III, IV, V, VI, Gaia); **EC PROMETHEE**; **RANCOM** (RANking COMparison); **RAFSI** (Ranking of Alternatives through Functional mapping of criterion sub-intervals into a Single Interval); **REGIME** (REGIonal Multicriteria Elimination); **ROC** (Rank Ordered Centroid); **ROV** (Range Of Value); **RRW** (Rank Reciprocal Weighting); **RSW** (Rank Summed Weight); **SAW** (Simple Additive Weighting); **SECA** (Simultaneous Evaluation of Criteria and Alternatives); **SMART** (Simple Multi-Attribute Rating Technique); **SPOTIS** (Stable Preference Ordering Towards Ideal Solution); **TODIM** (TOmada de Decisao Interativa e Multicriterio - Interactive and Multicriteria Decision Making); **PSI** (Preference Selection Index); **MPSI** (Modified Preference Selection Index); **TOPSIS** (Technique for Order of Preference by Similarity to Ideal Solution); **Fuzzy TOPSIS**; **UTADIS** (UTilites Additives DIScriminantes I, II, III); **VIKOR** (VIseKriterijumska Optimizacija I Kompromisno Resenje); **Fuzzy VIKOR**; **WINGS** (Weighted Influence Non-linear Gauge System); **WISP** (Integrated Simple Weighted Sum Product); **Simple WISP**; **WSM** (Weighted Sum Model); **Fuzzy WSM**; **WPM** (Weighted Product Model); **Fuzzy WPM**; **WASPAS** (Weighted Aggregates Sum Product Assessment); **Fuzzy WASPAS**. 
+
+pyDecision offers an array of features, including the **comparison of ranking alternatives** and **comparison of criterion weights** from various methods. The library is also fully integrated with **chatGPT**, elevating result interpretation through AI. Additionally, pyDecision provides the flexibility to import results from custom methods or those not yet implemented in the library for swift comparison.
 
 ## Usage
 
@@ -60,6 +60,7 @@ else:
 - AHP ([ Colab Demo ](https://colab.research.google.com/drive/1qwFQs5xkTZ8K-Ul_wWcCtPjLH0QooU9g?usp=sharing)) ( [ Paper ](http://dx.doi.org/10.1016/0377-2217(90)90057-I))
 - Fuzzy AHP ([ Colab Demo ](https://colab.research.google.com/drive/1RtEMOLGL5wtmheMRZv8emcO5wbjYVBCo?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/S0165-0114(83)80082-7))
 - PPF AHP ([ Colab Demo ](https://colab.research.google.com/drive/1wI-8z2aysGKhSI3PLxN6vOZ4jsbPmKYl?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.eswa.2023.122354))
+- ANP ([ Colab Demo ](https://colab.research.google.com/drive/1mMk3eBUccyGD0crAwLQOe9Dw8iogzW_N?usp=sharing)) ( [ Paper ](https://scispace.com/pdf/the-analytic-network-process-51hg4cf5tk.pdf))
 - ARAS ([ Colab Demo ](https://colab.research.google.com/drive/1rwQgXjvC3E6pRhOs7CkcCV8Vw2bXEPLy?usp=sharing)) ( [ Paper ](https://doi.org/10.3846/tede.2010.10))
 - Fuzzy ARAS ([ Colab Demo ](https://colab.research.google.com/drive/1kZDkEWsw0d0nFhDQQk8azZXRod7RnfZr?usp=sharing)) ( [ Paper ](https://doi.org/10.3846/transport.2010.52))
 - Borda ([ Colab Demo ](https://colab.research.google.com/drive/1t5RVtG7_yXK-nPxM0MVd4U01qfTQYW4k?usp=sharing)) ( [ Paper ](http://gerardgreco.free.fr/IMG/pdf/MA_c_moire-Borda-1781.pdf))
@@ -72,6 +73,7 @@ else:
 - Copeland ([ Colab Demo ](https://colab.research.google.com/drive/1ObP3AkQAzoCxT6et5Qkyk1trlER7mcdH?usp=sharing)) ( [ Paper ](https://doi.org/10.1007/BF01212012))
 - COPRAS ([ Colab Demo ](https://colab.research.google.com/drive/1TZJtSjXqwYEwuL7-wfLcPQ8ZBtDq3lth?usp=sharing)) ( [ Paper ](https://doi.org/10.3846/20294913.2012.762953))
 - Fuzzy COPRAS ([ Colab Demo ](https://colab.research.google.com/drive/1AIGgxBkmcA6YHKx06VeYcGf2EV8dPffW?usp=sharing)) ( [ Paper ](https://doi.org/10.1007/s00500-021-05762-w))
+- CPP-Tri ([ Colab Demo ](https://colab.research.google.com/drive/1Sb7sdCbelfvr2Po-ZuANoIZw5DZoKarx?usp=sharing)) ( [ Paper ](https://doi.org/10.1504/IJIDS.2015.071372))
 - CRADIS ([ Colab Demo ](https://colab.research.google.com/drive/1p7AQmPIOsZFxaypqMsiRIWW8mIvDtoLi?usp=sharing)) ( [ Paper ](https://doi.org/10.1007/s10668-021-01902-2))
 - CRITIC ([ Colab Demo ](https://colab.research.google.com/drive/1D5SaBHa1-Eo_KYSXHkFjsHYu29M21l_F?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/0305-0548(94)00059-H))
 - Fuzzy CRITIC ([ Colab Demo ](https://colab.research.google.com/drive/1wofFhWDw6fn-XpLQoQjveKjyaId-AsEw?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.engappai.2022.104942))
@@ -87,16 +89,21 @@ else:
 - ELECTRE III   ([ Colab Demo ](https://colab.research.google.com/drive/1smeD5ZoPgBnAAUyooAXSrkxHgqZPmUC9?usp=sharing)) ( [ Paper ](https://github.com/Valdecy/Datasets/raw/master/MCDA/E03.pdf))
 - ELECTRE IV    ([ Colab Demo ](https://colab.research.google.com/drive/178x062yC-Es6lstEiFaFprbMsTJZwnC-?usp=sharing)) ( [ Paper ](http://dx.doi.org/10.1007/978-1-4757-5057-7_3))
 - ELECTRE Tri-B ([ Colab Demo ](https://colab.research.google.com/drive/1hu0fJcxdBAiEDrVngmKQfpINpjTF-osE?usp=sharing)) ( [ Paper ](https://drive.google.com/file/d/1oWOI_sX3EEYdRbavoBTT7vUmPII1yPgE/view?usp=sharing))
+- ELECTRE Tri-nB ([ Colab Demo ](https://colab.research.google.com/drive/1K1CsAY5dlu8ivQPZ3Dyhbir3TOlXNHHG?usp=sharing)) ( [ Paper ](http://dx.doi.org/10.1016/j.ejor.2017.04.048))
+- ELECTRE Tri-C ([ Colab Demo ](https://colab.research.google.com/drive/1djN1rjXiHG6inUuirJpTHwvE-QlpH6-s?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.ejor.2009.10.018))
+- ELECTRE Tri-nC ([ Colab Demo ](https://colab.research.google.com/drive/1eG89O7kVoWtruLb2QMvYwrFT_D3au0QH?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.ejor.2011.09.047))
+- Flowsort ([ Colab Demo ](https://colab.research.google.com/drive/1CIr8PwLbkX6fZFkn127WQWXNl7cGexg5?usp=sharing)) ( [ Paper ](https://link.springer.com/article/10.1007/s11750-007-0036-x))
 - FUCOM ([ Colab Demo ](https://colab.research.google.com/drive/1eWP3xf3-9iLLW_l_9JuAe6BEeoMsqzcL?usp=sharing)) ( [ Paper ](https://doi.org/10.3390/sym10090393))
 - Fuzzy FUCOM ([ Colab Demo ](https://colab.research.google.com/drive/1bkelWth_7TOW_gIz8mBNe_4W5Ox84FUB?usp=sharing)) ( [ Paper ](https://doi.org/10.3390/su14094972 ))
 - GRA ([ Colab Demo ](https://colab.research.google.com/drive/1aMMI0Cuo5kpzTDefqEwJhf0wWpBOP_JL?usp=sharing)) ( [ Paper ](https://uranos.ch/research/references/Julong_1989/10.1.1.678.3477.pdf))
 - IDOCRIW ([ Colab Demo ](https://colab.research.google.com/drive/1zt8uPFZGcHaSnpiT7tDnrDjvs0pK_7vS?usp=sharing)) ( [ Paper ](https://doi.org/10.1142/S0219622016500036))
+- LMAW ([ Colab Demo ](https://colab.research.google.com/drive/1EBpI5oV7zRPhOJo7ckDKWDzlguxDNbWn?usp=sharing)) ( [ Paper ](https://doi.org/10.22190/FUME210214031P))
 - MABAC ([ Colab Demo ](https://colab.research.google.com/drive/1BMqO-HnBXdcOZfZoULpx1H4MLPoUGucJ?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.eswa.2014.11.057))
-- MACBETH ([ Colab Demo ](https://colab.research.google.com/drive/1GqM9uPgbaWCGyj4l-XjkoifY2JJoVyf2?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/0969-6016(94)90010-8))
+- MACBETH ([ Colab Demo ](https://colab.research.google.com/drive/1GqM9uPgbaWCGyj4l-XjkoifY2JJoVyf2?usp=sharing)) ( [ Paper ](https://www.sciencedirect.com/science/article/abs/pii/0969601694900108))
 - MAIRCA ([ Colab Demo ](https://colab.research.google.com/drive/1gfqgrBAFGVygwm1j3lTjfy5wTsLgT_j5?usp=sharing)) ( [ Paper ](https://doi.org/10.1080/1331677X.2018.1506706))
 - MARA ([ Colab Demo ](https://colab.research.google.com/drive/1Ggg5e7TKVF_JN4yZRq9zThJO-PRBSI-N?usp=sharing)) ( [ Paper ](https://doi.org/10.3390/systems10060248))
 - MARCOS ([ Colab Demo ](https://colab.research.google.com/drive/13MI2Qrakm5VzHN3r5O2RqggCzQwRxCs-?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.cie.2019.106231))
-- MAUT ([ Colab Demo ](https://colab.research.google.com/drive/1qm3ARgQm68GUK2irGiCB-B49vnVHazB7?usp=sharing)) ( [ Paper ](https://doi.org/10.1017/CBO9781139174084))
+- MAUT ([ Colab Demo ](https://colab.research.google.com/drive/1qm3ARgQm68GUK2irGiCB-B49vnVHazB7?usp=sharing)) ( [ Paper ](https://doi.org/10.1002/9781118644898.ch4))
 - MEREC ([ Colab Demo ](https://colab.research.google.com/drive/1XE3AIzS84w-gw_1MEtV7xvkU1Gj_tRPd?usp=sharing)) ( [ Paper ](https://doi.org/10.3390/sym13040525))
 - Fuzzy MEREC ([ Colab Demo ](https://colab.research.google.com/drive/1yJ1eOXoGNp3amhoyBtEFCXr5PqwI9S5T?usp=sharing)) ( [ Paper ](https://doi.org/10.3390/math11061544))
 - MOORA ([ Colab Demo ](https://colab.research.google.com/drive/1FpKl0QAdwGgCVvLYsRHvMWhz7yOp17B5?usp=sharing)) ( [ Paper ](http://matwbn.icm.edu.pl/ksiazki/cc/cc35/cc35213.pdf))
@@ -120,6 +127,7 @@ else:
 - PSI ([ Colab Demo ](https://colab.research.google.com/drive/1u9tN8cYl2mx6KK6yLW2oz6fuVoy8xcCI?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.matdes.2009.11.020))
 - MPSI ([ Colab Demo ](https://colab.research.google.com/drive/1zj2AS6W_VWmG5mYgY4b-dnCK0q3AG1-K?usp=sharing)) ( [ Paper ](https://doi.org/10.3390/systems10060248))
 - RAFSI ([ Colab Demo ](https://colab.research.google.com/drive/13N85L87uh3wJXyja0zYvNglSju3-xVxU?usp=sharing)) ( [ Paper ](http://dx.doi.org/10.3390/math8061015))
+- RANCOM ([ Colab Demo ](https://colab.research.google.com/drive/1Dwr0mEN31mU9jU5w0Q-STfA7JHsUU-_N?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.engappai.2023.106114))
 - REGIME ([ Colab Demo ](https://colab.research.google.com/drive/1jcAcjAS92rxvE2urhc6HPixvzJ60HqEg?usp=sharing)) ( [ Paper ](https://doi.org/10.1007/BF00221383))
 - ROC ([ Colab Demo ](https://colab.research.google.com/drive/1uUFXlCsZkFnh8HemNJ_hppvDC1eAwu4W?usp=sharing)) ( [ Paper ](https://doi.org/10.1002/(SICI)1099-0771(199806)11:2<85::AID-BDM282>3.0.CO;2-K))
 - ROV ([ Colab Demo ](https://colab.research.google.com/drive/1sQAPCem0pcS29uf6-n4TpncXMXNx9JDh?usp=sharing)) ( [ Paper ](https://doi.org/10.5267/j.dsl.2015.12.001))
@@ -132,6 +140,9 @@ else:
 - TODIM ([ Colab Demo ](https://colab.research.google.com/drive/1EQqhhBQHHb8HT0TfuuVeFA2kwezsQYT1?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.ejor.2007.10.046))
 - TOPSIS ([ Colab Demo ](https://colab.research.google.com/drive/1s87DC5_oa9GvgVe98oAP1UIhduac09CB?usp=sharing)) ( [ Paper ](https://doi.org/10.1057/jors.1987.44))
 - Fuzzy TOPSIS ([ Colab Demo ](https://colab.research.google.com/drive/1eKx7AOYrnG-kZcsBt28rMEtCrUO-j3J-?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.procs.2016.07.088))
+- UTADIS I ([ Colab Demo ](https://colab.research.google.com/drive/1poIPoL8rASAPGp_WCZoySGw-t3INNk2s?usp=sharing)) ( [ Paper ](https://doi.org/10.1023/A:1008713823812))
+- UTADIS II ([ Colab Demo ](https://colab.research.google.com/drive/1zgnC9mMpgd6-VPna0dMisADWEyIV2oOH?usp=sharing)) ( [ Paper ](https://oldsite.unipi.gr/faculty/ysiskos/files/paper3.pdf))
+- UTADIS III ([ Colab Demo ](https://colab.research.google.com/drive/1JGMMEuaPe1QRhhe2NuGj7y4W5d0a6FeD?usp=sharing)) ( [ Paper ](https://oldsite.unipi.gr/faculty/ysiskos/files/paper3.pdf))
 - VIKOR ([ Colab Demo ](https://colab.research.google.com/drive/1egZiTNvI2eE-tyJ2m85MM6B3-qhiSjPG?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/S0377-2217(03)00020-1))
 - Fuzzy VIKOR ([ Colab Demo ](https://colab.research.google.com/drive/1anfCnU2TSrW-Z5vMkS_qXFrYZ0ciQE53?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.eswa.2011.04.097))
 - WINGS ([ Colab Demo ](https://colab.research.google.com/drive/1li1_cPxwEM3NOZ4hbI8RROXyOmXeoWew?usp=sharing)) ( [ Paper ](https://doi.org/10.1016/j.ejor.2013.02.007))
@@ -148,9 +159,13 @@ else:
 5. Advanced MCDA Methods:
 
 - [3MOAHP](https://github.com/Valdecy/Method_3MOAHP) - Inconsistency Reduction Technique for AHP and Fuzzy-AHP Methods
-- [pyMissingAHP](https://github.com/Valdecy/pyMissingAHP) - A Method to Infer AHP Missing Pairwise Comparisons
+- [EC-PROMETHEE](https://github.com/Valdecy/ec_promethee) -  A Committee Approach for Outranking Problems
+- [EC-TOPSIS](https://github.com/Valdecy/ec_topsis) -  A Committee Approach for Outranking Problems
 - [ELECTRE-Tree](https://github.com/Valdecy/ELECTRE-Tree) - Algorithm to infer the ELECTRE Tri-B method parameters
-- [Ranking-Trees](https://github.com/Valdecy/Ranking-Trees) - Algorithm to infer the ELECTRE II, III, IV, and PROMETHEE I, II, III, IV method parameters
+- [MCDM Scheduler](https://github.com/Valdecy/mcdm_scheduler) -  A MCDM approach for Scheduling Problems
+- [Ranking-Trees](https://github.com/Valdecy/Ranking-Trees) - Algorithm to infer the ELECTRE II, III, IV and PROMETHEE I, II, III, IV method parameters
+- [pyMissingAHP](https://github.com/Valdecy/pyMissingAHP) - A Method to Infer AHP Missing Pairwise Comparisons
+- [pyRankMCDA](https://github.com/Valdecy/pyRankMCDA) -  A Rank Aggegation Library for MCDA problems
 
 # Acknowledgement 
 

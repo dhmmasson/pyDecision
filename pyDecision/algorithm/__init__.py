@@ -1,4 +1,5 @@
 from .ahp           import ahp_method
+from .anp           import anp_method
 from .aras          import aras_method
 from .borda         import borda_method
 from .bwm           import bw_method
@@ -8,6 +9,7 @@ from .cocoso        import cocoso_method
 from .codas         import codas_method
 from .copeland      import copeland_method
 from .copras        import copras_method
+from .cpp_tri       import cpp_tri_method
 from .cradis        import cradis_method
 from .critic        import critic_method
 from .dematel       import dematel_method
@@ -18,8 +20,12 @@ from .e_ii          import electre_ii
 from .e_iii         import electre_iii
 from .e_iv          import electre_iv
 from .e_tri_b       import electre_tri_b
+from .e_tri_nb      import electre_tri_nb
+from .e_tri_c       import electre_tri_c
+from .e_tri_nc      import electre_tri_nc
 from .edas          import edas_method
 from .entropy       import entropy_method
+from .flowsort      import flowsort_method
 from .fucom         import fucom_method
 from .fuzzy_ahp     import fuzzy_ahp_method
 from .fuzzy_ahp_ppf import ppf_ahp_method
@@ -38,6 +44,7 @@ from .fuzzy_vikor   import fuzzy_vikor_method
 from .fuzzy_waspas  import fuzzy_waspas_method
 from .gra           import gra_method
 from .idocriw       import idocriw_method
+from .lmaw          import lmaw_method
 from .mabac         import mabac_method
 from .macbeth       import macbeth_method
 from .mairca        import mairca_method
@@ -63,6 +70,7 @@ from .piv           import piv_method
 from .psi           import psi_method
 from .psi_m         import mpsi_method
 from .rafsi         import rafsi_method
+from .rancom        import rancom_method
 from .regime        import regime_method
 from .roc           import roc_method
 from .rov           import rov_method
@@ -74,6 +82,9 @@ from .smart         import smart_method
 from .spotis        import spotis_method
 from .todim         import todim_method
 from .topsis        import topsis_method
+from .utadis_i      import utadis_i_method, predict_classes_new
+from .utadis_ii     import utadis_ii_method
+from .utadis_iii    import utadis_iii_method
 from .vikor         import vikor_method, ranking
 from .waspas        import waspas_method
 from .wisp          import wisp_method
