@@ -1,0 +1,90 @@
+cff-version: 1.2.0
+title: "pyDecision (fork with TAMARIN method)"
+message: >-
+  This is a fork of the original pyDecision library by Valdecy Pereira.
+  If you use pyDecision, please cite the original work below.
+  Only cite this fork if you specifically use the TAMARIN method.
+type: software
+authors:
+  - given-names: Dimitri
+    family-names: Masson
+    email: d.masson@estia.fr
+    affiliation: ESTIA INSTITUTE OF TECHNOLOGY
+    orcid: 'https://orcid.org/0000-0002-7072-3146'
+doi: "10.5281/zenodo.18879705"
+repository-code: "https://github.com/dhmmasson/pyDecision"
+license: GPL-3.0
+references:
+  - type: article
+    title: >-
+      Enhancing Decision Analysis with a Large Language Model: pyDecision a
+      Comprehensive Library of MCDA Methods in Python
+    authors:
+      - family-names: Pereira
+        given-names: Valdecy
+      - family-names: Basilio
+        given-names: Marcio P.
+      - family-names: Santos
+        given-names: Carlos H. T.
+    journal: "Journal of Modelling in Management"
+    volume: 21
+    issue: 2
+    start: 481
+    end: 521
+    year: 2026
+    doi: "10.1108/JM2-04-2024-0118"
+  - type: software
+    title: "pyDecision"
+    authors:
+      - family-names: Pereira
+        given-names: Valdecy
+    repository-code: "https://github.com/Valdecy/pyDecision"
+    license: GPL-3.0
+  - type: software
+    title: "Tamarin"
+    authors:
+      - given-names: Dimitri
+        family-names: Masson
+        email: d.masson@estia.fr
+        affiliation: ESTIA INSTITUTE OF TECHNOLOGY
+        orcid: "https://orcid.org/0000-0002-7072-3146"
+      - given-names: Laura
+        family-names: Laguna Salvadó
+        orcid: "https://orcid.org/0000-0002-6549-4393"
+        affiliation: ESTIA INSTITUTE OF TECHNOLOGY
+      - given-names: Eric
+        family-names: Villeneuve
+        orcid: "https://orcid.org/0000-0003-0273-2267"
+        affiliation: ESTIA INSTITUTE OF TECHNOLOGY
+    doi: "10.5281/zenodo.13628740"
+    repository-code: "https://github.com/dhmmasson/tamarin"
+    url: "https://dhmmasson.github.io/tamarin/static/"
+    license: MIT
+    version: "v1.9"
+    date-released: "2024-09-02"
+    abstract: >-
+      Tamarin is an open-source interactive alternative ranking system for
+      Multi-Criteria Decision-Making (MCDM) designed to help users select
+      the optimal technology alternatives based on their preferences and
+      criteria.
+  - type: article
+    title: >-
+      Decision Support System for technology selection based on
+      multi-criteria ranking: Application to NZEB refurbishment
+    authors:
+      - given-names: Laura
+        family-names: Laguna Salvadó
+      - given-names: Eric
+        family-names: Villeneuve
+      - given-names: Dimitri
+        family-names: Masson
+      - given-names: Audrey
+        family-names: Abi Akle
+      - given-names: Nicolas
+        family-names: Bur
+    journal: "Building and Environment"
+    volume: 212
+    year: 2022
+    start: 108786
+    issn: "0360-1323"
+    doi: "10.1016/j.buildenv.2022.108786"

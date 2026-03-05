@@ -1,8 +1,24 @@
 # pyDecision
 
+> **Note:** This is a fork of [Valdecy/pyDecision](https://github.com/Valdecy/pyDecision). If you use pyDecision, **please cite the original work** — not this repository. This fork only adds the  **TAMARIN** method . Cite this fork only if you specifically use TAMARIN.
+
 ## Citation
 
+### Original pyDecision (please cite this)
+
 PEREIRA, V.; BASILIO, M.P.; SANTOS, C.H.T (2026). Enhancing Decision Analysis with a Large Language Model: pyDecision a Comprehensive Library of MCDA Methods in Python. Journal of Modelling in Management, Vol. 21 No. 2 pp. 481–521, doi: https://doi.org/10.1108/JM2-04-2024-0118
+
+### TAMARIN method (this fork)
+
+If you want to cite the use of TAMARIN with pyDecision specifically, you may additionally cite this fork:
+
+> Masson, D. *pyDecision fork — TAMARIN method*. Available at: https://github.com/dhmmasson/pyDecision, doi: [10.5281/zenodo.18879705](https://doi.org/10.5281/zenodo.18879705)
+
+The TAMARIN software and its associated paper:
+
+> Masson, D., Laguna Salvadó, L., & Villeneuve, E. (2024). Tamarin (v1.9). Zenodo. https://doi.org/10.5281/zenodo.13628740
+
+> Laguna Salvadó, L., Villeneuve, E., Masson, D., Abi Akle, A., & Bur, N. (2022). Decision Support System for technology selection based on multi-criteria ranking: Application to NZEB refurbishment. *Building and Environment*, 212, 108786. https://doi.org/10.1016/j.buildenv.2022.108786
 
 ## Introduction
 
